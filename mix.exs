@@ -48,7 +48,9 @@ defmodule LiveViewStudio.MixProject do
       {:telemetry_poller, "~> 1.0"},
       {:gettext, "~> 0.18"},
       {:jason, "~> 1.2"},
-      {:plug_cowboy, "~> 2.5"}
+      {:plug_cowboy, "~> 2.5"},
+      {:credo, "~> 1.6", only: [:dev, :tes], runtime: false},
+      {:surface_formatter, "~> 0.7.5"}
     ]
   end
 
